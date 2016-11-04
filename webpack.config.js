@@ -1,5 +1,9 @@
 module.exports = {
   entry: './',  
+  output: {
+  path: './public',
+  filename: 'bundle.js'
+  },
   devtool:  'inline-source-map',
   devServer: {
   	publicPath: '/',   

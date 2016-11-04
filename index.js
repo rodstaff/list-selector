@@ -30,11 +30,11 @@ var FilteredList = React.createClass({
       items: []
     };
   },
-  filterList: function(e) {
+  filterList: function(ev) {
     var updatedList = this.state.initialItems.filter(function(item) {
       return (
         item.toLowerCase().search(
-          e.target.value.toLowerCase()) !== -1
+          ev.target.value.toLowerCase()) !== -1
       );
     });
     this.setState({
