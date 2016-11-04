@@ -1,10 +1,10 @@
 {
-  "name": "react-starter",
+  "name": "list-selector",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --progress --colors --config ./webpack.config.js"
+    "dev": "webpack-dev-server --progress --colors"
   },
   "author": "rodk",
   "license": "ISC",
