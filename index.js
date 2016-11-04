@@ -7,22 +7,34 @@ var FilteredList = React.createClass({
       initialItems: [
          "Apples",
          "Broccoli",
+         "Beef",
+         "Broccoli",
+         "Cabbage",
          "Chicken",
+         "Corn Syrup",
          "Duck",
          "Eggs",
          "Fish",
+         "Flour",
          "Granola",
-         "Hash Browns"
+         "Hash Browns",
+         "Potatoes",
+         "Red Pepppers",
+         "Soy Sauce",
+         "Spinach",
+         "String Beans",
+         "Tomatoes",
+         "Vinegar",
+         "Watermelon"
       ],
       items: []
     };
   },
-  filterList: function(event) {
-    var updatedList = this.state.initialItems;
-    updatedList = updatedList.filter(function(item) {
+  filterList: function(e) {
+    var updatedList = this.state.initialItems.filter(function(item) {
       return (
         item.toLowerCase().search(
-          event.target.value.toLowerCase()) !== -1
+          e.target.value.toLowerCase()) !== -1
       );
     });
     this.setState({
