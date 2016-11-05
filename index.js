@@ -62,7 +62,7 @@ var FilteredList = React.createClass({
   render: function() {
     return (
       <div className="filter-list">
-        <input type="text" placeholder="Search" onChange={this.filterList} />
+        <input type="text" placeholder="Type and search here" onChange={this.filterList} /> INPUT
         <List items={this.state.items} />
       </div>
     );
