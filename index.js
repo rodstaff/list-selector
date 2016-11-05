@@ -73,4 +73,3 @@ var List = React.createClass({
 ReactDOM.render(
   <FilteredList/>, document.getElementById('root')
 );
-
