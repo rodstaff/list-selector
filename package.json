@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "wbp": "webpack",
-    "dev": "webpack-dev-server --progress --colors --content-base public/"
+    "dev": "webpack-dev-server --progress --colors --inline --hot --content-base public/"
   },
   "author": "rodk",
   "license": "ISC",
