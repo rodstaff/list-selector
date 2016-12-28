@@ -24,7 +24,7 @@ class FilteredList extends React.Component {
       <div>
         <h3>Filter your list: </h3>
         <input type="text" onChange={this.filterList.bind(this)} 
-          placeholder="type here"
+          placeholder="type keyword here"
         /> &nbsp;INPUT
         <List items={this.state.items} />
       </div>
